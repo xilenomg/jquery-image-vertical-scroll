@@ -1,0 +1,23 @@
+.imageArea .imageSection{
+    position: relative;
+}
+
+.imageArea .splashImage{
+    width: 100%;
+}
+
+.imageArea .arrow-down-image{
+    position: absolute;
+    z-index: 1;
+}
+
+.imageArea .arrow-down-image.center{
+    top: 50%;
+    left: 50%;
+}
+
+.imageArea .arrow-down-image:hover{
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}

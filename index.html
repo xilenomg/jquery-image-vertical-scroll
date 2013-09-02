@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Vertical Scroll Demo</title>
+  <link rel="stylesheet" href="./css/image-vertical-scroll.css" />
+</head>
+<body>
+
+<div class="imageArea">
+  <div class="imageSection">
+        <img src="./images/splash/splash-001.jpg" />
+  </div>
+
+  <div class="imageSection">
+        <img src="./images/splash/splash-002.jpg" />
+  </div>
+
+  <div class="imageSection">
+        <img src="./images/splash/splash-003.jpg" />
+  </div>
+
+  <div class="imageSection">
+        <img src="./images/splash/splash-004.jpg" />
+  </div>
+
+  <div class="imageSection">
+    <img src="./images/splash/splash-005.jpg" />
+  </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" ></script>
+<script src="./js/image-vertical-scroll.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".imageSection").imageVerticalScrollfy();
+    });
+</script>
+</body>
+</html>
